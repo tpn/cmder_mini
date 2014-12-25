@@ -1,0 +1,78 @@
+zsh
+exit
+zsg
+ping macbook
+net view \\macbook
+net use * \\lacie\Shared
+cd ..
+echo %PATH%
+where gpg-agent
+exit
+where gpg-agent
+cd ..
+cd Downloads\
+gpg4win-2.2.3.exe --help
+gpg4win-2.2.3.exe
+cd ..\Apps\
+dir
+cd GnuPG\
+dir
+echo %PATH%
+gpg-agent --help
+gpg-agent --daemon -q --enable-ssh-support --enable-putty-support --write-env-file C:\Users\Trent\Home\.gpg-agent-info --pinentry-program C:\Users\Trent\Apps\GnuPG\pinentry-w32.exe 
+exit
+cd Downloads\gnupg-w32cli-1.9.14\
+dir
+gpg --decrypt --armor test.gpg 
+cd home\src\px-3.3-pygotham-sprint\
+dir
+type pxd-http-server.bat 
+cd Doc\
+dir
+type README.txt | more
+mkdir build\output && python tools/sphinx-build.py -bhtml . build\output
+cd ..
+pxd-http-server.bat 
+dir
+type pxd-http-server.bat 
+linkd Doc\build\output website
+linkd website Doc\build\output 
+dir
+dir website\
+pxd-http-server.bat 
+type pxd-http-server.bat 
+cd ..\pyparallel
+dir
+explorer PCbuild\
+cd home\src\pyparallel
+explorer .
+linkd website Doc\build\output 
+cd website
+cd ..
+pxd-http-server.bat --root website\
+pxd-http-server.bat --port 8081 --root website\
+pxd hs --help
+pxd hs --port 8081 --root website\
+cd home\src\
+cd pyparallel
+dir
+pxd
+px scfl
+px scflo
+pxd es
+pxd hs --root website\
+px hs --root website\
+exit
+cd home\src
+cd pyparallel
+dir
+pxd
+type pxd-http-server.bat 
+pxd-http-server.bat 
+exit
+ipconfig /all
+cd home\src\
+cd px-3.3-pygotham-sprint\
+dir
+explorer .
+exit
