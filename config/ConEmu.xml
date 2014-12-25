@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2014-12-25 11:04:32" build="140707">
+		<key name=".Vanilla" modified="2014-12-25 11:20:12" build="140707">
 			<value name="ColorTable00" type="dword" data="00222827"/>
 			<value name="ColorTable01" type="dword" data="009e5401"/>
 			<value name="ColorTable02" type="dword" data="0004aa74"/>
@@ -130,7 +130,7 @@
 			<value name="ConWnd X" type="dword" data="00000071"/>
 			<value name="ConWnd Y" type="dword" data="00000058"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
-			<value name="AutoSaveSizePos" type="hex" data="00"/>
+			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="dword" data="0000012c"/>
@@ -145,7 +145,7 @@
 			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
 			<value name="ConsoleFontWidth" type="dword" data="00000003"/>
 			<value name="ConsoleFontHeight" type="dword" data="00000005"/>
-			<value name="DefaultBufferHeight" type="dword" data="000003e8"/>
+			<value name="DefaultBufferHeight" type="dword" data="0000270f"/>
 			<value name="AutoBufferHeight" type="hex" data="01"/>
 			<value name="CmdOutputCP" type="dword" data="00000000"/>
 			<value name="ComSpec.Type" type="hex" data="00"/>
@@ -153,7 +153,7 @@
 			<value name="ComSpec.UpdateEnv" type="hex" data="00"/>
 			<value name="ComSpec.EnvAddPath" type="hex" data="01"/>
 			<value name="ComSpec.EnvAddExePath" type="hex" data="01"/>
-			<value name="ComSpec.UncPaths" type="hex" data="00"/>
+			<value name="ComSpec.UncPaths" type="hex" data="01"/>
 			<value name="ComSpec.Path" type="string" data=""/>
 			<value name="ConsoleTextSelection" type="hex" data="01"/>
 			<value name="CTS.AutoCopy" type="hex" data="01"/>
@@ -352,7 +352,7 @@
 			<value name="ChildSystemMenu" type="dword" data="ffffffff"/>
 			<value name="Multi.NewConsole" type="dword" data="80808000"/>
 			<value name="Multi.NewConsoleShift" type="dword" data="00001154"/>
-			<value name="Multi.NewConsolePopup" type="dword" data="80808000"/>
+			<value name="Multi.NewConsolePopup" type="dword" data="0000114e"/>
 			<value name="Multi.NewWindow" type="dword" data="00000000"/>
 			<value name="Multi.NewSplitV" type="dword" data="00001000"/>
 			<value name="Multi.NewSplitH" type="dword" data="80808000"/>
@@ -372,13 +372,13 @@
 			<value name="Multi.MoveLeft" type="dword" data="00125b25"/>
 			<value name="Multi.MoveRight" type="dword" data="00125b27"/>
 			<value name="Multi.CmdKey" type="dword" data="80808000"/>
-			<value name="CTS.VkBlockStart" type="dword" data="00000000"/>
+			<value name="CTS.VkBlockStart" type="dword" data="00001001"/>
 			<value name="CTS.VkTextStart" type="dword" data="00000000"/>
 			<value name="CTS.VkCopyAll" type="dword" data="00000000"/>
 			<value name="Multi.ShowTabsList" type="dword" data="00000000"/>
 			<value name="Multi.ShowTabsList2" type="dword" data="80808000"/>
-			<value name="ClipboardVkAllLines" type="dword" data="0000102d"/>
-			<value name="ClipboardVkFirstLine" type="dword" data="00001156"/>
+			<value name="ClipboardVkAllLines" type="dword" data="00001156"/>
+			<value name="ClipboardVkFirstLine" type="dword" data="00101156"/>
 			<value name="DeleteWordToLeft" type="dword" data="00001108"/>
 			<value name="FindTextKey" type="dword" data="00005d46"/>
 			<value name="ScreenshotKey" type="dword" data="80808000"/>
@@ -411,9 +411,9 @@
 			<value name="Key.JumpNextMonitor" type="dword" data="80808000"/>
 			<value name="Key.TileToLeft" type="dword" data="80808000"/>
 			<value name="Key.TileToRIght" type="dword" data="80808000"/>
-			<value name="KeyMacro01" type="dword" data="0012a031"/>
+			<value name="KeyMacro01" type="dword" data="00a5a131"/>
 			<value name="KeyMacro01.Text" type="string" data="Task(&quot;cmd&quot;)"/>
-			<value name="KeyMacro02" type="dword" data="0012a032"/>
+			<value name="KeyMacro02" type="dword" data="00a5a132"/>
 			<value name="KeyMacro02.Text" type="string" data="Task(&quot;PowerShell&quot;)"/>
 			<value name="KeyMacro03" type="dword" data="000011d0"/>
 			<value name="KeyMacro03.Text" type="string" data="FontSetSize(1,2)"/>
@@ -483,9 +483,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2014-12-25 11:04:32" build="140707">
+				<key name="Tasks" modified="2014-12-25 11:20:12" build="140707">
 				<value name="Count" type="dword" data="00000003"/>
-						<key name="Task1" modified="2014-12-25 11:04:32" build="140707">
+						<key name="Task1" modified="2014-12-25 11:20:12" build="140707">
 					<value name="Name" type="string" data="{zsh}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="C:\cygwin64\bin\zsh.exe -l"/>
@@ -493,7 +493,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00121159"/>
 				</key>
-						<key name="Task2" modified="2014-12-25 11:04:32" build="140707">
+						<key name="Task2" modified="2014-12-25 11:20:12" build="140707">
 					<value name="Name" type="string" data="{cmd}"/>
 					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
 					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%"/>
@@ -501,7 +501,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="0012114d"/>
 				</key>
-						<key name="Task3" modified="2014-12-25 11:04:32" build="140707">
+						<key name="Task3" modified="2014-12-25 11:20:12" build="140707">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;%userprofile%&quot;"/>
@@ -510,11 +510,11 @@
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2014-12-25 11:04:32" build="140707">
+				<key name="Apps" modified="2014-12-25 11:20:12" build="140707">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-			<key name="Colors" modified="2014-12-25 11:04:32" build="140707">
-			<key name="Palette1" modified="2014-12-25 11:04:32" build="140707">
+			<key name="Colors" modified="2014-12-25 11:20:12" build="140707">
+			<key name="Palette1" modified="2014-12-25 11:20:12" build="140707">
 					<value name="Name" type="string" data="Monokai"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -563,19 +563,19 @@
 			<value name="ConsoleExceptionHandler" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="00"/>
 			<value name="CTS.IBeam" type="hex" data="01"/>
-			<value name="Multi.SplitSizeVU" type="dword" data="00105d26"/>
-			<value name="Multi.SplitSizeVD" type="dword" data="00105d28"/>
-			<value name="Multi.SplitSizeHL" type="dword" data="00105d25"/>
-			<value name="Multi.SplitSizeHR" type="dword" data="00105d27"/>
-			<value name="Multi.SplitFocusU" type="dword" data="00005d26"/>
-			<value name="Multi.SplitFocusD" type="dword" data="00005d28"/>
-			<value name="Multi.SplitFocusL" type="dword" data="00005d25"/>
-			<value name="Multi.SplitFocusR" type="dword" data="00005d27"/>
+			<value name="Multi.SplitSizeVU" type="dword" data="00121126"/>
+			<value name="Multi.SplitSizeVD" type="dword" data="00121128"/>
+			<value name="Multi.SplitSizeHL" type="dword" data="00121125"/>
+			<value name="Multi.SplitSizeHR" type="dword" data="00121127"/>
+			<value name="Multi.SplitFocusU" type="dword" data="00001226"/>
+			<value name="Multi.SplitFocusD" type="dword" data="00001228"/>
+			<value name="Multi.SplitFocusL" type="dword" data="00001225"/>
+			<value name="Multi.SplitFocusR" type="dword" data="00001227"/>
 			<value name="CloseGroupPrcKey" type="dword" data="00000000"/>
 			<value name="SetDefaultTerminalStartupTSA" type="hex" data="01"/>
 			<value name="CTS.HtmlFormat" type="hex" data="01"/>
 			<value name="TabIcons" type="hex" data="01"/>
-			<value name="Multi.NewConsolePopup2" type="dword" data="00000000"/>
+			<value name="Multi.NewConsolePopup2" type="dword" data="0012114e"/>
 			<value name="CloseAllConKey" type="dword" data="00000000"/>
 			<value name="CloseExceptConKey" type="dword" data="00000000"/>
 			<value name="CTS.VkCopyFmt0" type="dword" data="00001143"/>
